@@ -4,14 +4,15 @@
 .navbar {
   .list {
     display: flex;
-    gap: 2.5rem;
+    gap: 40px;
     align-items: center;
     .link {
+      position: relative;
       text-decoration: none;
       text-transform: uppercase;
       &:hover {
         color: $color-blue;
-        text-decoration: 2px underline $color-blue ;
+        text-decoration: 2px underline $color-blue;
         text-underline-offset: 4px;
         font-weight: 600;
       }
