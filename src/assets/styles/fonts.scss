@@ -21,13 +21,13 @@
   font-style: normal;
 }
 
-@mixin roboto($font-size, $font-weight, $line-height) {
+@mixin roboto($font-size, $font-weight) {
   font-family: "Roboto", sans-serif;
   font-size: $font-size;
   font-weight: $font-weight;
 }
 
 @mixin fontMain() {
-  @include roboto(0.875rem, 400, 120%);
-  color: $black-color;
+  @include roboto(1rem, 400);
+  color: $color-black;
 }
