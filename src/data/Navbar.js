@@ -1,6 +1,6 @@
 export const navbarArray = [
   { id: 1, title: "О проекте", path: "/" },
-  { id: 2, title: "Помощь", path: "/" },
+  { id: 2, title: "Помощь", path: "/help" },
   { id: 3, title: "Дело", path: "/" },
   { id: 4, title: "Партнеры", path: "/" },
   { id: 5, title: "Мерч", path: "/" },

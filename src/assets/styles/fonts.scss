@@ -31,3 +31,8 @@
   @include roboto(1rem, 400);
   color: $color-black;
 }
+
+@mixin fontUrgentText() {
+  @include roboto(1.5rem, 400);
+  color: $color-black;
+}
