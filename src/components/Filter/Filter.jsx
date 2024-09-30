@@ -1,5 +1,8 @@
 import ToggleSwitch from '../UI/ToggleSwitch/ToggleSwitch';
+import FilterButtons from '../UI/FilterButtons/FilterButtons';
+
 import s from './Filter.module.scss';
+
 import Urgently from '../../assets/icons/urgently.svg';
 
 const Filter = () => {
@@ -12,6 +15,7 @@ const Filter = () => {
         </div>
         <ToggleSwitch />
       </div>
+      <FilterButtons />
     </div>
   );
 };

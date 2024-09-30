@@ -4,7 +4,7 @@ const ToggleSwitch = () => {
   return (
     <>
       <input type="checkbox" id="switch" />
-      <label for="switch">Toggle</label>
+      <label htmlFor="switch">Toggle</label>
     </>
   );
 };

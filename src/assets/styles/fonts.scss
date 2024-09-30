@@ -32,7 +32,17 @@
   color: $color-black;
 }
 
+@mixin fontFilterText() {
+  @include roboto(1.25rem, 400);
+  color: $color-black;
+}
+
 @mixin fontUrgentText() {
   @include roboto(1.5rem, 400);
   color: $color-black;
+}
+
+@mixin fontButtonSearch() {
+  @include roboto(1.5rem, 500);
+  color: $color-white;
 }

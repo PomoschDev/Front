@@ -1,0 +1,40 @@
+@import "../../../assets/styles/fonts.scss";
+@import "../../../assets/styles/variables.scss";
+
+.filter {
+  position: relative;
+  width: 100%;
+  display: flex;
+  border: 2px solid $color-blue;
+  border-right: 180px solid $color-blue;
+  border-radius: 16px;
+  &-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.25rem 0.875rem 1.125rem 1rem;
+    background-color: transparent;
+    border: none;
+    &:nth-child(1),
+    &:nth-child(2) {
+      border-right: 1px solid $color-grey;
+    }
+  }
+  &-text {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    @include fontFilterText();
+  }
+}
+
+.filter-button--search {
+  top: 16px;
+  right: -123px;
+  position: absolute;
+  @include fontButtonSearch();
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
