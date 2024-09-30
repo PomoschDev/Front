@@ -6,13 +6,14 @@ import Category from '../../../assets/icons/category.svg';
 import ArrowDropDown from '../../../assets/icons/arrow-dropDown.svg';
 import LoveHelping from '../../../assets/icons/i-helping.svg';
 import LocationMap from '../../../assets/icons/location map.svg';
+import Close from '../../../assets/icons/close.svg';
 
 
 const FilterButtons = () => {
   const [filter, setFilter] = useState([
-    {id: 1, name: 'Категория', icon: Category},
-    {id: 2, name: 'Я помогаю', icon: LoveHelping},
-    {id: 3, name: 'Москва', icon: LocationMap},
+    { id: 1, name: 'Категория', icon: Category, arrow: ArrowDropDown },
+    { id: 2, name: 'Я помогаю', icon: LoveHelping, arrow: ArrowDropDown },
+    { id: 3, name: 'Москва', icon: LocationMap, arrow: Close },
   ]);
 
   return (
@@ -24,7 +25,7 @@ const FilterButtons = () => {
               <img src={i.icon} alt={i.name} />
               {i.name}
             </div>
-            <img src={ArrowDropDown} alt={ArrowDropDown} />
+            <img src={i.arrow} alt={i.arrow} />
           </button>
         ))}
         <button type="submit" className={s['filter-button--search']}>
