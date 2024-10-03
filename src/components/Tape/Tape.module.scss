@@ -1,0 +1,13 @@
+@import "../../assets/styles/fonts.scss";
+@import "../../assets/styles/variables.scss";
+
+.container {
+  width: 100%;
+  background-color: $bG-light-grey;
+}
+
+.content {
+  padding-top: 14px;
+  width: $content-width;
+  margin: 0 auto;
+}
