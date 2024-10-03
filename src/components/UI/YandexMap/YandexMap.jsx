@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import s from "YandexMap.module.scss";
+import s from "./YandexMap.module.scss";
 
 const YandexMap = () => {
   useEffect(() => {
