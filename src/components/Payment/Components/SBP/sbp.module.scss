@@ -1,0 +1,50 @@
+.sbp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sbpIcon {
+    margin-bottom: 20px;
+    }
+
+    h1 {
+        margin-bottom: 38px;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        cursor: pointer;
+    }
+
+  
+}
+
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+
+    input {
+        border-radius: 16px;
+        width: 600px;
+        background-color: #F5F5F5;
+        border: none;
+        padding: 18px 0px 18px 56px;
+        margin-bottom: 12px;
+    }
+
+    .searchIcon {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        cursor: pointer;
+    }
+}

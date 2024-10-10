@@ -1,0 +1,39 @@
+.grandma {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.cardBtn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+h1 {
+    cursor: pointer;
+    font-size: 28px;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+a {
+    position: absolute;
+    left: 50%;
+    bottom: -100%;
+    transform: translateX(-50%);
+}
+
+.arrow {
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+}
+
+div {
+    position: relative;
+}
