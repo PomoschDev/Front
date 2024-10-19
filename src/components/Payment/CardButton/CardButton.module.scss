@@ -1,0 +1,23 @@
+.btn {
+    max-width: 600px;
+    height: 68px;
+    border: none;
+    border-radius: 16px;
+    background-color: #E0EBFD;
+    text-align: start;
+    font-size: 28px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+        margin-right: 8px;
+        margin-left: 16px;
+    }
+
+   
+    .arrow {
+        margin-left: auto;
+    }
+}

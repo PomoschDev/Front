@@ -1,7 +1,12 @@
 @import '../../../assets/styles/fonts.scss';
 @import '../../../assets/styles/variables.scss';
 
-input[type="checkbox"] {
+.toggleSwitch {
+  display: flex;
+  align-items: center;
+
+  
+  input[type="checkbox"] {
   height: 0;
   width: 0;
   visibility: hidden;
@@ -41,4 +46,5 @@ input:checked + label:after {
 
 label:active:after {
   width: 130px;
+}
 }

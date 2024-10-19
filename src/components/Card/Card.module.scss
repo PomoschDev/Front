@@ -1,0 +1,19 @@
+@import "../../assets/styles/fonts.scss";
+@import "../../assets/styles/variables.scss";
+
+.card {
+  border-radius: 16px;
+  width: 21.4375rem;
+  background-color: $color-white;
+}
+
+.card-button {
+  margin-top: 0.75rem;
+  width: 100%;
+  border-radius: 12px;
+  padding: 0.4063rem 0;
+  border: none;
+  cursor: pointer;
+  background-color: $color-blue;
+  @include fontBtn();
+}

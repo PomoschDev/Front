@@ -27,9 +27,44 @@
   font-weight: $font-weight;
 }
 
+@mixin fontMarkerText() {
+  @include roboto(0.625rem, 500);
+  color: $color-black;
+}
+
+@mixin fontPriceText() {
+  @include roboto(0.75rem, 400);
+  color: $color-black;
+}
+
+@mixin fontPriceValue() {
+  @include roboto(0.75rem, 500);
+  color: $color-black;
+}
+
+@mixin fontNameCategory() {
+  @include roboto(0.875rem, 700);
+  color: $color-white;
+}
+
+@mixin fontFromDate() {
+  @include roboto(0.875rem, 500);
+  color: $color-grey;
+}
+
 @mixin fontMain() {
   @include roboto(1rem, 400);
   color: $color-black;
+}
+
+@mixin fontTitleCard() {
+  @include roboto(1rem, 500);
+  color: $color-black;
+}
+
+@mixin fontBtn() {
+  @include roboto(1rem, 500);
+  color: $color-white;
 }
 
 @mixin fontFilterText() {

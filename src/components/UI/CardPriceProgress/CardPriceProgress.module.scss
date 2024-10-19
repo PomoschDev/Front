@@ -1,0 +1,48 @@
+@import "../../../assets/styles/fonts.scss";
+@import "../../../assets/styles/variables.scss";
+
+.card-info {
+  padding: 0.8125rem 1rem 1rem 1rem;
+  .card-date {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    &__text {
+      @include fontFromDate();
+    }
+  }
+  .card-title {
+    padding-top: 0.75rem;
+    @include fontTitleCard();
+  }
+  .card-price {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    &__text {
+      @include fontPriceText();
+    }
+    &__value {
+      display: flex;
+      justify-content: space-between;
+      .card-price__from,
+      .card-price__before {
+        @include fontPriceValue();
+      }
+    }
+  }
+}
+
+.card-progress {
+  width: 100%;
+  border-radius: 16px;
+  height: 10px;
+  background-color: $color-grey;
+  &__fill {
+    width: 50%;
+    height: 100%;
+    background-color: $color-orange;
+    border-radius: 16px;
+  }
+}
