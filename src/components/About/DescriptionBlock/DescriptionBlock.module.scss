@@ -1,0 +1,30 @@
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  img {
+    width: 49%;
+    height: auto;
+    border-radius: 20px;
+  }
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+
+  p {
+    width: 49%;
+    min-width: 49%;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+  }
+}

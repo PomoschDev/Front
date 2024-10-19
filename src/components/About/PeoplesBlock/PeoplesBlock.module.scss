@@ -1,0 +1,51 @@
+.peoples {
+
+  .text {
+    width: 70%;
+  }
+
+  .images_wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .images {
+    width: 100%;
+    margin-top: 40px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    user-select: none;
+  }
+  
+  .people_card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%;
+    padding: 0 2.5%;
+    
+    img {
+      max-width: 292px;
+      width: 100%;
+      height: auto;
+    }
+
+    p {
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .people_card {
+      flex: 0 0 45%; /* На узких экранах по 2 карточки в строке */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .people_card {
+      flex: 0 0 100%; /* На очень узких экранах 1 карточка */
+      margin-bottom: 20px;
+    }
+  }
+}
