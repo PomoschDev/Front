@@ -1,0 +1,33 @@
+.distribution {
+    width: 380px;
+    height: 130px;
+    border: 1px solid #EFEFEF;
+    border-radius: 20px;
+    padding: 24px 17px 30px 16px;
+
+
+    h2 {
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    h2::after {
+        content: url('../../../../../assets/icons/question.svg');
+        vertical-align: middle;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        p:nth-child(2) {
+            margin-left: auto;
+        }
+
+
+    }
+}

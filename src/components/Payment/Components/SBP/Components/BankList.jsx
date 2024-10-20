@@ -48,26 +48,32 @@ const bankList = [
     },
 ];
 
-
-
-export const CustomButton = ({ bank }) => {
+export const CustomButton = ({ bank, onClick }) => {
     return (
-        <button className={style.btn}>
+        <button className={style.btn} onClick={onClick}>
             {bank.title}
             <img src={bank.img.src} alt={bank.img.alt} />
         </button>
     )
 }
 
+const BankList = ({ setSbp, setCardDetails }) => {
+    const handleBankClick = () => {
+        setSbp(false);
+        setCardDetails(true);
+    };
 
-const BankList = () => {
     return (
         <div>
             {bankList.map((bank) => (
-                <CustomButton key={bank.id} bank={bank} />
+                <CustomButton 
+                    key={bank.id} 
+                    bank={bank} 
+                    onClick={handleBankClick} // Передаем обработчик клика
+                />
             ))}
         </div>
     );
 }
 
-export default BankList; 
+export default BankList;

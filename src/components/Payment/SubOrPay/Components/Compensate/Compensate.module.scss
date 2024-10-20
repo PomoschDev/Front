@@ -1,0 +1,39 @@
+.compensate {
+    position: relative;
+    width: 414px;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    background-color: #DFEBFD;
+    padding: 16px 21px 37px 16px;
+
+
+
+    p {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+
+    .switch {
+        position: absolute;
+        right: 0;
+        top: 16px;
+    }
+
+
+    h3 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-left: 52px;
+
+
+
+    }
+
+    h3::before {
+        content: url('../../../../../assets/icons/Heart.svg');
+        position: absolute;
+        left: 16px;
+    }
+}

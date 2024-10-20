@@ -7,7 +7,7 @@ import arrow from '../../../../assets/icons/arrow-back.svg';
 
 export const MainPayment = ({setSbp, setVisible, setCardDetails}) => {
     return (
-            <div>
+            <div className={style.content}>
                 <img src={arrow} alt="arrow-back" className={style.arrow} onClick={() => setVisible(false)}/>
                 <h1>СПОСОБ ОПЛАТЫ</h1>
                 <div className={style.cardBtn}> 

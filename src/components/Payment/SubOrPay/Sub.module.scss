@@ -1,0 +1,239 @@
+@import '../../../assets/styles/fonts.scss';
+
+
+img {
+    cursor: pointer;
+}
+
+.subOrPay {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 32px;
+
+
+
+    p:nth-child(1) {
+        
+        cursor: pointer;
+        font-size: 28px;
+
+    }
+
+    p:nth-child(2) {
+        cursor: pointer;
+        font-size: 28px;
+        text-decoration: underline;
+        color: #5E9AF4;
+    }
+}
+
+.payForm {
+    width: 600px;
+    margin-top: 40px;
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    height: 140px;
+    padding: 34px 33px 38px 23px;
+
+    input::placeholder {
+        color: #333333;
+        font-size: 28px;
+    }
+
+
+    input {
+        width: 96%;
+        height: 50px;
+        border: 1px solid #3037360D;
+        border-radius: 12px;
+        padding-left: 21px;
+        color: black;
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+
+    .formButtons {
+        display: flex;
+        gap: 10px;
+
+
+        button {
+            height: 66px;
+            width: 120px;
+            background-color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 28px;
+        }
+
+
+        button:active {
+            background-color: #5E9AF4;
+            color: white;
+            transform: scale(0.9);
+        }
+
+        button:nth-child(1) {
+            height: 66px;
+            width: 216px;
+        }
+
+    }
+
+
+}
+
+
+.subscribe {
+    position: relative;
+
+    h1 {
+        font-size: 28px;
+        margin: 0;
+        cursor: auto;
+        font-weight: 700;
+        margin-top: 28px;
+    }
+
+         .payButton {
+             width: 100%;
+             height: 66px;
+             margin-top: 50px;
+             background-color: #F5F5F5;
+             border: none;
+             border-radius: 12px;
+             font-size: 28px;
+             letter-spacing: 1px;
+             cursor: pointer;
+         }
+    
+         .payButton:active {
+             transform: scale(0.99);
+             background: #5E9AF4;
+             color: white;
+         }
+
+
+
+
+    .distribution {
+        width: 380px;
+        height: 130px;
+        border: 1px solid #EFEFEF;
+        border-radius: 20px;
+        padding: 24px 17px 30px 16px;
+
+
+        h2 {
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        h2::after {
+            content: url('../../../assets/icons/question.svg');
+            vertical-align: middle;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            p:nth-child(2) {
+                margin-left: auto;
+            }
+
+
+        }
+    }
+
+
+    .compensate {
+        position: relative;
+        width: 414px;
+        height: 200px;
+        border: none;
+        border-radius: 20px;
+        background-color: #DFEBFD;
+        padding: 16px 21px 37px 16px;
+
+
+
+        p {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+
+        .switch {
+            position: absolute;
+            right: 0;
+            top: 16px;
+        }
+
+
+        h3 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-left: 52px;
+
+
+
+        }
+
+        h3::before {
+            content: url('../../../assets/icons/Heart.svg');
+            position: absolute;
+            left: 16px;
+        }
+    }
+}
+
+
+
+
+.cardsButton {
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+
+    button {
+        width: 136px;
+        height: 78px;
+        border: 2px solid #EFEFEF;
+        border-radius: 8px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+
+    button:nth-child(1) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            font-size: 32px;
+        }
+    }
+
+    button:nth-child(2) {
+        font-size: 20px;
+        font-weight: 700;
+
+        p {
+            color: blue;
+        }
+    }
+
+
+
+}
