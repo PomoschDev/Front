@@ -1,0 +1,6 @@
+services: 
+  frontend:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "${FRONT__PORT}:${FRONT__PORT}"
