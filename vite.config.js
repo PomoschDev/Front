@@ -11,9 +11,9 @@ export default defineConfig({
         importers: [],
       },
     },
-    server: {
-      host: process.env.VITE_HOST || "0.0.0.0",
-      port: process.env.VITE_PORT ? parseInt(process.env.VITE_PORT) : 3000,
-    },
+  },
+  server: {
+    host: process.env.VITE_HOST || "0.0.0.0",
+    port: process.env.VITE_PORT ? parseInt(process.env.VITE_PORT) : 3000,
   },
 });
